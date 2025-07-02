@@ -1,0 +1,105 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "_addr",
+        "type": "address"
+      }
+    ],
+    "name": "getTruck",
+    "outputs": [
+      {
+        "components": [
+          {
+            "internalType": "string",
+            "name": "suhu",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "koordinat",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "namaBarang",
+            "type": "string"
+          },
+          {
+            "internalType": "string",
+            "name": "namaSupir",
+            "type": "string"
+          }
+        ],
+        "internalType": "struct SupplyChain.TruckData",
+        "name": "",
+        "type": "tuple"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "truckLog",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "suhu",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "koordinat",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "namaBarang",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "namaSupir",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_suhu",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_koordinat",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_namaBarang",
+        "type": "string"
+      },
+      {
+        "internalType": "string",
+        "name": "_namaSupir",
+        "type": "string"
+      }
+    ],
+    "name": "updateTruck",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
